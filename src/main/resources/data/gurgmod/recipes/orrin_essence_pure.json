@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients": 
+	[
+		{ "item": "gurgmod:orrin_essence" },
+		{ "item": "gurgmod:orrin_essence" },
+		{ "item": "gurgmod:orrin_essence" }
+	],
+	
+	"result": { "item": "gurgmod:orrin_essence_pure" }
+}

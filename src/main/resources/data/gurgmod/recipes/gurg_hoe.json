@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" O ",
+		"GKL",
+		" F "
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:orrin_hoe" },
+		"G": {"item": "gurgmod:gregory_hoe" },
+		"K": {"item": "gurgmod:keith_hoe" },
+		"L": {"item": "gurgmod:leslie_hoe" },
+		"F": {"item": "gurgmod:franklin_hoe" }
+	},
+	
+	"result": { "item": "gurgmod:gurg_hoe"},
+	
+	"count": 1
+	
+}

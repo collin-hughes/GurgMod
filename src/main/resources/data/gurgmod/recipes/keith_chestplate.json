@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"O O",
+		"OOO",
+		"OOO"
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:keith_ingot" }
+	},
+	
+	"result": { "item": "gurgmod:keith_chestplate"},
+	
+	"count": 1
+	
+}

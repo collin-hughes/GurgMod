@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" O ",
+		"GKL",
+		" F "
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:orrin_leggings" },
+		"G": {"item": "gurgmod:gregory_leggings" },
+		"K": {"item": "gurgmod:keith_leggings" },
+		"L": {"item": "gurgmod:leslie_leggings" },
+		"F": {"item": "gurgmod:franklin_leggings" }
+	},
+	
+	"result": { "item": "gurgmod:gurg_leggings"},
+	
+	"count": 1
+	
+}

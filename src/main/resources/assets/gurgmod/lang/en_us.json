@@ -1,0 +1,101 @@
+{
+	"item.gurgmod.orrin_essence": "Orrin Essence",
+	"block.gurgmod.orrin_essence_ore": "Orrin Essence Ore",
+	"block.gurgmod.orrin_essence_block": "Block of Orrin Essence",
+	"item.gurgmod.orrin_essence_pure": "Pure Orrin Essence",
+	"item.gurgmod.orrin_ingot": "Orrin Ingot",
+
+	"item.gurgmod.orrin_axe": "Orrin Axe",
+	"item.gurgmod.orrin_hoe": "Orrin Hoe",
+	"item.gurgmod.orrin_pickaxe": "Orrin Pickaxe",
+	"item.gurgmod.orrin_shovel": "Orrin Shovel",
+	"item.gurgmod.orrin_sword": "Orrin Sword",
+  
+	"item.gurgmod.orrin_helmet": "Orrin Helmet",
+	"item.gurgmod.orrin_chestplate": "Orrin Chestplate",
+	"item.gurgmod.orrin_leggings": "Orrin Leggings",
+	"item.gurgmod.orrin_boots": "Orrin Boots",
+ 
+	"item.gurgmod.gregory_essence": "Gregory Essence",
+	"block.gurgmod.gregory_essence_ore": "Gregory Essence Ore",
+	"block.gurgmod.gregory_essence_block": "Block of Gregory Essence",
+	"item.gurgmod.gregory_essence_pure": "Pure Gregory Essence",
+	"item.gurgmod.gregory_ingot": "Gregory Ingot",
+	 
+	"item.gurgmod.gregory_axe": "Gregory Axe",
+	"item.gurgmod.gregory_hoe": "Gregory Hoe",
+	"item.gurgmod.gregory_pickaxe": "Gregory Pickaxe",
+	"item.gurgmod.gregory_shovel": "Gregory Shovel",
+	"item.gurgmod.gregory_sword": "Gregory Sword",
+ 
+	"item.gurgmod.gregory_helmet": "Gregory Helmet",
+	"item.gurgmod.gregory_chestplate": "Gregory Chestplate",
+	"item.gurgmod.gregory_leggings": "Gregory Leggings",
+	"item.gurgmod.gregory_boots": "Gregory Boots",
+
+	"item.gurgmod.keith_essence": "Keith Essence",
+	"block.gurgmod.keith_essence_ore": "Keith Essence Ore",
+	"block.gurgmod.keith_essence_block": "Block of Keith Essence",
+	"item.gurgmod.keith_essence_pure": "Pure Keith Essence",
+	"item.gurgmod.keith_ingot": "Keith Ingot",
+
+	"item.gurgmod.keith_axe": "Keith Axe",
+	"item.gurgmod.keith_hoe": "Keith Hoe",
+	"item.gurgmod.keith_pickaxe": "Keith Pickaxe",
+	"item.gurgmod.keith_shovel": "Keith Shovel",
+	"item.gurgmod.keith_sword": "Keith Sword",
+  
+	"item.gurgmod.keith_helmet": "Keith Helmet",
+	"item.gurgmod.keith_chestplate": "Keith Chestplate",
+	"item.gurgmod.keith_leggings": "Keith Leggings",
+	"item.gurgmod.keith_boots": "Keith Boots",
+  
+	"item.gurgmod.leslie_essence": "Leslie Essence",
+	"block.gurgmod.leslie_essence_ore": "Leslie Essence Ore",
+	"block.gurgmod.leslie_essence_block": "Block of Leslie Essence",
+	"item.gurgmod.leslie_essence_pure": "Pure Leslie Essence",
+	"item.gurgmod.leslie_ingot": "Leslie Ingot",
+
+	"item.gurgmod.leslie_axe": "Leslie Axe",
+	"item.gurgmod.leslie_hoe": "Leslie Hoe",
+	"item.gurgmod.leslie_pickaxe": "Leslie Pickaxe",
+	"item.gurgmod.leslie_shovel": "Leslie Shovel",
+	"item.gurgmod.leslie_sword": "Leslie Sword",
+ 
+	"item.gurgmod.leslie_helmet": "Leslie Helmet",
+	"item.gurgmod.leslie_chestplate": "Leslie Chestplate",
+	"item.gurgmod.leslie_leggings": "Leslie Leggings",
+	"item.gurgmod.leslie_boots": "Leslie Boots",
+
+	"item.gurgmod.franklin_essence": "Franklin Essence",
+	"block.gurgmod.franklin_essence_ore": "Franklin Essence Ore",
+	"block.gurgmod.franklin_essence_block": "Block of Franklin Essence",
+	"item.gurgmod.franklin_essence_pure": "Pure Franklin Essence",
+	"item.gurgmod.franklin_ingot": "Franklin Ingot",
+ 
+	"item.gurgmod.franklin_axe": "Franklin Axe",
+	"item.gurgmod.franklin_hoe": "Franklin Hoe",
+	"item.gurgmod.franklin_pickaxe": "Franklin Pickaxe",
+	"item.gurgmod.franklin_shovel": "Franklin Shovel",
+	"item.gurgmod.franklin_sword": "Franklin Sword",
+ 
+	"item.gurgmod.franklin_helmet": "Franklin Helmet",
+	"item.gurgmod.franklin_chestplate": "Franklin Chestplate",
+	"item.gurgmod.franklin_leggings": "Franklin Leggings",
+	"item.gurgmod.franklin_boots": "Franklin Boots",
+  
+	"item.gurgmod.gurg_axe": "Gurg Axe",
+	"item.gurgmod.gurg_hoe": "Gurg Hoe",
+	"item.gurgmod.gurg_pickaxe": "Gurg Pickaxe",
+	"item.gurgmod.gurg_shovel": "Gurg Shovel",
+	"item.gurgmod.gurg_sword": "Gurg Sword",
+	
+	"item.gurgmod.gurg_helmet": "Gurg Helmet",
+	"item.gurgmod.gurg_chestplate": "Gurg Chestplate",
+	"item.gurgmod.gurg_leggings": "Gurg Leggings",
+	"item.gurgmod.gurg_boots": "Gurg Boots",
+	
+	"itemGroup.gurg_mod_armor": "Gurg Mod Armor",
+	"itemGroup.gurg_mod_tools": "Gurg Mod Tools",
+	"itemGroup.gurg_mod_items": "Gurg Mod Items"
+}

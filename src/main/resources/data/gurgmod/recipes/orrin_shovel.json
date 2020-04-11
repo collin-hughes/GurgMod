@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"O",
+		"S",
+		"S"
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:orrin_ingot" },
+		"S": {"item": "minecraft:stick" }
+	},
+	
+	"result": { "item": "gurgmod:orrin_shovel"},
+	
+	"count": 1
+	
+}

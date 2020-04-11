@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"OO",
+		"OS",
+		" S"
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:orrin_ingot" },
+		"S": {"item": "minecraft:stick" }
+	},
+	
+	"result": { "item": "gurgmod:orrin_axe"},
+	
+	"count": 1
+	
+}

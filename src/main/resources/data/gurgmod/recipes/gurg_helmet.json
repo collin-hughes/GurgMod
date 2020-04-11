@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" O ",
+		"GKL",
+		" F "
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:orrin_helmet" },
+		"G": {"item": "gurgmod:gregory_helmet" },
+		"K": {"item": "gurgmod:keith_helmet" },
+		"L": {"item": "gurgmod:leslie_helmet" },
+		"F": {"item": "gurgmod:franklin_helmet" }
+	},
+	
+	"result": { "item": "gurgmod:gurg_helmet"},
+	
+	"count": 1
+	
+}

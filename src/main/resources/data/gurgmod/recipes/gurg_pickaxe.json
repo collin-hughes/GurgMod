@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" O ",
+		"GKL",
+		" F "
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:orrin_pickaxe" },
+		"G": {"item": "gurgmod:gregory_pickaxe" },
+		"K": {"item": "gurgmod:keith_pickaxe" },
+		"L": {"item": "gurgmod:leslie_pickaxe" },
+		"F": {"item": "gurgmod:franklin_pickaxe" }
+	},
+	
+	"result": { "item": "gurgmod:gurg_pickaxe"},
+	
+	"count": 1
+	
+}

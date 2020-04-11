@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" O ",
+		"GKL",
+		" F "
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:orrin_axe" },
+		"G": {"item": "gurgmod:gregory_axe" },
+		"K": {"item": "gurgmod:keith_axe" },
+		"L": {"item": "gurgmod:leslie_axe" },
+		"F": {"item": "gurgmod:franklin_axe" }
+	},
+	
+	"result": { "item": "gurgmod:gurg_axe"},
+	
+	"count": 1
+	
+}

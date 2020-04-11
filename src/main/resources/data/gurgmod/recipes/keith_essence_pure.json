@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients": 
+	[
+		{ "item": "gurgmod:keith_essence" },
+		{ "item": "gurgmod:keith_essence" },
+		{ "item": "gurgmod:keith_essence" }
+	],
+	
+	"result": { "item": "gurgmod:keith_essence_pure" }
+}

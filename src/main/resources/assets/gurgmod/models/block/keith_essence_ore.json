@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "gurgmod:block/keith_essence_ore"
+    }
+}

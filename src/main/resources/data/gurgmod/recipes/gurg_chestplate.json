@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" O ",
+		"GKL",
+		" F "
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:orrin_chestplate" },
+		"G": {"item": "gurgmod:gregory_chestplate" },
+		"K": {"item": "gurgmod:keith_chestplate" },
+		"L": {"item": "gurgmod:leslie_chestplate" },
+		"F": {"item": "gurgmod:franklin_chestplate" }
+	},
+	
+	"result": { "item": "gurgmod:gurg_chestplate"},
+	
+	"count": 1
+	
+}

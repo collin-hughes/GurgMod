@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "gurgmod:block/gregory_essence_ore"
+    }
+}

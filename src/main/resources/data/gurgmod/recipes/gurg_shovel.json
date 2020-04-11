@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" O ",
+		"GKL",
+		" F "
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:orrin_shovel" },
+		"G": {"item": "gurgmod:gregory_shovel" },
+		"K": {"item": "gurgmod:keith_shovel" },
+		"L": {"item": "gurgmod:leslie_shovel" },
+		"F": {"item": "gurgmod:franklin_shovel" }
+	},
+	
+	"result": { "item": "gurgmod:gurg_shovel"},
+	
+	"count": 1
+	
+}

@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" O ",
+		"GKL",
+		" F "
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:orrin_boots" },
+		"G": {"item": "gurgmod:gregory_boots" },
+		"K": {"item": "gurgmod:keith_boots" },
+		"L": {"item": "gurgmod:leslie_boots" },
+		"F": {"item": "gurgmod:franklin_boots" }
+	},
+	
+	"result": { "item": "gurgmod:gurg_boots"},
+	
+	"count": 1
+	
+}

@@ -1,0 +1,10 @@
+{
+  "void": {
+    "category" : "item",
+    "sounds": [{
+        "name": "gurgmod:void",
+        "stream": false
+      }
+    ]
+  }
+}

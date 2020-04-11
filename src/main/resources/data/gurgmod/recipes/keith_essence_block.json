@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"OOO",
+		"OOO",
+		"OOO"
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:keith_essence" }
+	},
+	
+	"result": { "item": "gurgmod:keith_essence_block"},
+	
+	"count": 1
+	
+}

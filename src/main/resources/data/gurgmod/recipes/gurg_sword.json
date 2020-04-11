@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" O ",
+		"GKL",
+		" F "
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:orrin_sword" },
+		"G": {"item": "gurgmod:gregory_sword" },
+		"K": {"item": "gurgmod:keith_sword" },
+		"L": {"item": "gurgmod:leslie_sword" },
+		"F": {"item": "gurgmod:franklin_sword" }
+	},
+	
+	"result": { "item": "gurgmod:gurg_sword"},
+	
+	"count": 1
+	
+}

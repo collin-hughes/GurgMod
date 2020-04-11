@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients": 
+	[
+		{ "item": "gurgmod:gregory_essence" },
+		{ "item": "gurgmod:gregory_essence" },
+		{ "item": "gurgmod:gregory_essence" }
+	],
+	
+	"result": { "item": "gurgmod:gregory_essence_pure" }
+}

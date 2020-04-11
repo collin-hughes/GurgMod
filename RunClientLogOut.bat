@@ -1,0 +1,1 @@
+gradlew RunClient > myLogs.txt 2>&1

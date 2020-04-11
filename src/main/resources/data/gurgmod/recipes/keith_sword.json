@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"O",
+		"O",
+		"S"
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:keith_ingot" },
+		"S": {"item": "minecraft:stick" }
+	},
+	
+	"result": { "item": "gurgmod:keith_sword"},
+	
+	"count": 1
+	
+}

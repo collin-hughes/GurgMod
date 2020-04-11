@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients": 
+	[
+		{ "item": "gurgmod:franklin_essence" },
+		{ "item": "gurgmod:franklin_essence" },
+		{ "item": "gurgmod:franklin_essence" }
+	],
+	
+	"result": { "item": "gurgmod:franklin_essence_pure" }
+}

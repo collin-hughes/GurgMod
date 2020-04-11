@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"O O",
+		"O O"
+	],
+	
+	"key":
+	{
+		"O": {"item": "gurgmod:franklin_ingot" }
+	},
+	
+	"result": { "item": "gurgmod:franklin_boots"},
+	
+	"count": 1
+	
+}

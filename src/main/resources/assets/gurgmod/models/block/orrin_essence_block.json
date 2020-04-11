@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "gurgmod:block/orrin_essence_block"
+    }
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients": 
+	[
+		{ "item": "gurgmod:leslie_essence" },
+		{ "item": "gurgmod:leslie_essence" },
+		{ "item": "gurgmod:leslie_essence" }
+	],
+	
+	"result": { "item": "gurgmod:leslie_essence_pure" }
+}
