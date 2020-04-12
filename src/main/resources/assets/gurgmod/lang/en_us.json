@@ -95,6 +95,15 @@
 	"item.gurgmod.gurg_leggings": "Gurg Leggings",
 	"item.gurgmod.gurg_boots": "Gurg Boots",
 	
+	"item.gurgmod.entity_gurglin_egg" : "Gurglin Spawn Egg",
+	"item.gurgmod.gurglin_hide" : "Gurglin Hide",
+	"item.gurgmod.raw_gurglin_meat" : "Raw Gurglin Meat",
+	"item.gurgmod.gurglin_tendie" : "Gurglin Tendie",
+	
+	
+	
+	"entity.gurgmod.entity_gurglin" : "Gurglin",
+	
 	"itemGroup.gurg_mod_armor": "Gurg Mod Armor",
 	"itemGroup.gurg_mod_tools": "Gurg Mod Tools",
 	"itemGroup.gurg_mod_items": "Gurg Mod Items"

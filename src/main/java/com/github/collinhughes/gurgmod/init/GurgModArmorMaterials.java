@@ -2,13 +2,13 @@ package com.github.collinhughes.gurgmod.init;
 
 
 import com.github.collinhughes.gurgmod.GurgMod;
+import com.github.collinhughes.gurgmod.util.handlers.GurgModSoundEvents;
 
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.SoundEvent;
-import com.github.collinhughes.gurgmod.util.handlers.GurgModSoundEvents;
 
 public enum GurgModArmorMaterials implements IArmorMaterial{
 	orrin("orrin", 400, new int[] {2, 4, 3, 1}, 25, GurgModItems.orrin_ingot, GurgModSoundEvents.ITEM_ARMOR_EQUIP_GURGMOD, 0.0f),
@@ -17,6 +17,13 @@ public enum GurgModArmorMaterials implements IArmorMaterial{
 	leslie("leslie", 1200, new int[] {8, 10, 9, 7}, 25, GurgModItems.leslie_ingot, GurgModSoundEvents.ITEM_ARMOR_EQUIP_GURGMOD, 0.0f),
 	franklin("franklin", 1400, new int[] {10, 13, 12, 9}, 25, GurgModItems.franklin_ingot, GurgModSoundEvents.ITEM_ARMOR_EQUIP_GURGMOD, 2.0f),
 	gurg("gurg", 2000, new int[] {15, 22, 21, 14}, 25, GurgModItems.gurg_ingot, GurgModSoundEvents.ITEM_ARMOR_EQUIP_GURGMOD, 10.0f);
+	
+	//orrin("orrin", 400, new int[] {2, 4, 3, 1}, 25, GurgModItems.orrin_ingot, SoundEvents.ENTITY_PIG_HURT, 0.0f),
+	//gregory("gregory", 600, new int[] {3, 6, 4, 2}, 25, GurgModItems.gregory_ingot, SoundEvents.ENTITY_PIG_HURT, 0.0f),
+	//keith("keith", 800, new int[] {5, 8, 7, 4}, 25, GurgModItems.keith_ingot, SoundEvents.ENTITY_PIG_HURT, 0.0f),
+	//leslie("leslie", 1200, new int[] {8, 10, 9, 7}, 25, GurgModItems.leslie_ingot, SoundEvents.ENTITY_PIG_HURT, 0.0f),
+	//franklin("franklin", 1400, new int[] {10, 13, 12, 9}, 25, GurgModItems.franklin_ingot, SoundEvents.ENTITY_PIG_HURT, 2.0f),
+	//gurg("gurg", 2000, new int[] {15, 22, 21, 14}, 25, GurgModItems.gurg_ingot, SoundEvents.ENTITY_PIG_HURT, 10.0f);
 
 	private static final int[] max_damage_array = new int[] {13, 15, 16, 11};
 	private String name;

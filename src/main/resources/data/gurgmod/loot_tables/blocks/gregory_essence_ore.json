@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:block",
+	"pools":
+	[
+		{
+			"rolls": 
+			{
+				"min" : 1,
+				"max" : 4
+			},
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "gurgmod:gregory_essence"
+				}
+			]
+		}
+	]
+}

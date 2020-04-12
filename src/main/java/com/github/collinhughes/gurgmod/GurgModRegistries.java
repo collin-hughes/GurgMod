@@ -4,6 +4,8 @@ import org.apache.logging.log4j.Logger;
 
 import com.github.collinhughes.gurgmod.init.GurgModArmorMaterials;
 import com.github.collinhughes.gurgmod.init.GurgModBlocks;
+import com.github.collinhughes.gurgmod.init.GurgModEntities;
+import com.github.collinhughes.gurgmod.init.GurgModFoods;
 import com.github.collinhughes.gurgmod.init.GurgModItems;
 import com.github.collinhughes.gurgmod.init.GurgModToolMaterials;
 import com.github.collinhughes.gurgmod.items.CustomAxeItem;
@@ -13,9 +15,11 @@ import com.github.collinhughes.gurgmod.util.handlers.GurgModSoundEvents;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.entity.EntityType;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.Food;
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -40,7 +44,7 @@ public class GurgModRegistries {
 	public static void registerSounds(final RegistryEvent.Register<SoundEvent> event)
 	{
 		event.getRegistry().registerAll(
-				GurgModSoundEvents.ITEM_ARMOR_EQUIP_GURGMOD.setRegistryName("gurgmod:void")
+				GurgModSoundEvents.ITEM_ARMOR_EQUIP_GURGMOD
 				);
 		
 		LOGGER.info("Sounds registered");
@@ -156,14 +160,14 @@ public class GurgModRegistries {
 				GurgModItems.gurg_helmet = new ArmorItem(GurgModArmorMaterials.gurg, EquipmentSlotType.HEAD, new Item.Properties().group(GURG_ARMOR)).setRegistryName(location("gurg_helmet")),
 				GurgModItems.gurg_chestplate = new ArmorItem(GurgModArmorMaterials.gurg, EquipmentSlotType.CHEST, new Item.Properties().group(GURG_ARMOR)).setRegistryName(location("gurg_chestplate")),
 				GurgModItems.gurg_leggings = new ArmorItem(GurgModArmorMaterials.gurg, EquipmentSlotType.LEGS, new Item.Properties().group(GURG_ARMOR)).setRegistryName(location("gurg_leggings")),
-				GurgModItems.gurg_boots = new ArmorItem(GurgModArmorMaterials.gurg, EquipmentSlotType.FEET, new Item.Properties().group(GURG_ARMOR)).setRegistryName(location("gurg_boots"))
+				GurgModItems.gurg_boots = new ArmorItem(GurgModArmorMaterials.gurg, EquipmentSlotType.FEET, new Item.Properties().group(GURG_ARMOR)).setRegistryName(location("gurg_boots")),
 				             
-				//GurgModItems.gurg_essence_block = new BlockItem(GurgModBlocks.orrin_essence_block, new Item.Properties().group(GURG_ITEMS)).setRegistryName(GurgModBlocks.orrin_essence_block.getRegistryName()),
-				//GurgModItems.gurg_essence_ore = new BlockItem(GurgModBlocks.orrin_essence_ore, new Item.Properties().group(GURG_ITEMS)).setRegistryName(GurgModBlocks.orrin_essence_ore.getRegistryName())
-				
+				GurgModItems.gurglin_hide = new Item(new Item.Properties().group(GURG_ITEMS)).setRegistryName(location("gurglin_hide")),
+				GurgModItems.gurglin_tendie = new Item(new Item.Properties().group(GURG_ITEMS).food(GurgModFoods.GURGLIN_TENDIE)).setRegistryName(location("gurglin_tendie")),
+				GurgModItems.raw_gurglin_meat = new Item(new Item.Properties().group(GURG_ITEMS).food(GurgModFoods.RAW_GURGLIN_MEAT)).setRegistryName(location("raw_gurglin_meat"))
 				);
 		
-		//TutorialEntities.registerEntitySpawnEggs(event);
+		GurgModEntities.registerEntitySpawnEggs(event);
 		
 		LOGGER.info("Items registered");
 	}
@@ -245,21 +249,21 @@ public class GurgModRegistries {
 //						.setRegistryName(location("gurg_essence_ore"))
 				);
 		
-		LOGGER.info("Items registered");
+		LOGGER.info("Blocks registered");
 	}
 	
-//	@SubscribeEvent
-//	public static void registerEntities(final RegistryEvent.Register<EntityType<?>> event)
-//	{
-//		event.getRegistry().registerAll
-//		(
-//				TutorialEntities.TUTORIAL_ENTITY
-//		);
-//		
-//		TutorialEntities.registerEntityWorldSpawns();
-//		
-//		LOGGER.info("Entities registered");
-//	}
+	@SubscribeEvent
+	public static void registerEntities(final RegistryEvent.Register<EntityType<?>> event)
+	{
+		event.getRegistry().registerAll
+		(
+				GurgModEntities.GURGLIN_ENTITY
+		);
+		
+		GurgModEntities.registerEntityWorldSpawns();
+		
+		LOGGER.info("Entities registered");
+	}
 	
 //	@SubscribeEvent
 //	public static void registerBiomes(final RegistryEvent.Register<Biome> event)

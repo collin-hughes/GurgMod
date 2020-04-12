@@ -3,6 +3,7 @@ package com.github.collinhughes.gurgmod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.github.collinhughes.gurgmod.client.renders.GurgModRenderRegistries;
 import com.github.collinhughes.gurgmod.config.Config;
 import com.github.collinhughes.gurgmod.world.OreGeneration;
 
@@ -48,7 +49,7 @@ public class GurgMod {
 	}
 
 	private void clientRegistries(final FMLClientSetupEvent event) {
-		//TutorialRenderRegistry.registryEntityRenders();
+		GurgModRenderRegistries.registryEntityRenders();
 		LOGGER.info("Client Registries method registered.");
 	}	
 }

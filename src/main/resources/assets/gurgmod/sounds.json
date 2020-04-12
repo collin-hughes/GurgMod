@@ -1,9 +1,10 @@
 {
   "void": {
-    "category" : "item",
+    "category" : "players",
     "sounds": [{
+    	"subtitle": "void",
         "name": "gurgmod:void",
-        "stream": false
+        "stream": true
       }
     ]
   }
