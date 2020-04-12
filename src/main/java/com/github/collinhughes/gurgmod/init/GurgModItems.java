@@ -103,8 +103,11 @@ public class GurgModItems
 	public static Item gurg_boots;
 	
 	public static Item entity_gurglin_egg;
+	public static Item entity_void_gurglin_egg;
 	
 	public static Item gurglin_hide;
 	public static Item gurglin_tendie;
 	public static Item raw_gurglin_meat;
+	
+
 }

@@ -1,6 +1,7 @@
 package com.github.collinhughes.gurgmod.client.renders;
 
 import com.github.collinhughes.gurgmod.entities.EntityGurglin;
+import com.github.collinhughes.gurgmod.entities.EntityVoidGurglin;
 
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -11,5 +12,6 @@ public class GurgModRenderRegistries {
 	public static void registryEntityRenders()
 	{
 		RenderingRegistry.registerEntityRenderingHandler(EntityGurglin.class, new EntityGurglinRender.RenderFactory());
+		RenderingRegistry.registerEntityRenderingHandler(EntityVoidGurglin.class, new EntityVoidGurglinRender.RenderFactory());
 	}
 }

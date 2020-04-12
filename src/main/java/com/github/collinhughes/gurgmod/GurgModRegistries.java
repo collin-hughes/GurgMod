@@ -257,7 +257,8 @@ public class GurgModRegistries {
 	{
 		event.getRegistry().registerAll
 		(
-				GurgModEntities.GURGLIN_ENTITY
+				GurgModEntities.ENTITY_GURGLIN,
+				GurgModEntities.ENTITY_VOID_GURGLIN
 		);
 		
 		GurgModEntities.registerEntityWorldSpawns();

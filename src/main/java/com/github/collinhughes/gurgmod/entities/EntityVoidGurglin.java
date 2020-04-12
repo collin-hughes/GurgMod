@@ -11,11 +11,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.World;
 
-public class EntityGurglin extends ZombiePigmanEntity {
+public class EntityVoidGurglin extends ZombiePigmanEntity {
 	@SuppressWarnings("unchecked")
-	public EntityGurglin(EntityType<? extends ZombiePigmanEntity> type, World worldIn) {
-		super ((EntityType<? extends ZombiePigmanEntity>) GurgModEntities.ENTITY_GURGLIN, worldIn);
-		this.setChild(true);
+	public EntityVoidGurglin(EntityType<? extends ZombiePigmanEntity> type, World worldIn) {
+		super ((EntityType<? extends ZombiePigmanEntity>) GurgModEntities.ENTITY_VOID_GURGLIN, worldIn);
+		this.setChild(false);
 	}
 	
 	@Override
@@ -25,7 +25,7 @@ public class EntityGurglin extends ZombiePigmanEntity {
 	
 	@Override
 	protected void setEquipmentBasedOnDifficulty(DifficultyInstance difficulty) {
-		this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(GurgModItems.orrin_sword));
+		this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(GurgModItems.gurg_sword));
 	}
 	
 	@Override
@@ -36,5 +36,6 @@ public class EntityGurglin extends ZombiePigmanEntity {
 	@Override
 	protected void registerAttributes() {
 		super.registerAttributes();
+		this.setHealth(40f);
 	}
 }
