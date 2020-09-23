@@ -19,6 +19,9 @@ public class GurgModBlocks
 	public static Block franklin_essence_block;
 	public static Block franklin_essence_ore;
 	
+	public static Block pendell_wood_log;
+	public static Block pendell_wood_planks;
+	public static Block pendell_wood_leaves;
 	//public static Block gurg_essence_block;
 	//public static Block gurg_essence_ore;
 	

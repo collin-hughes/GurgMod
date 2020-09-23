@@ -109,5 +109,12 @@ public class GurgModItems
 	public static Item gurglin_tendie;
 	public static Item raw_gurglin_meat;
 	
+	public static Item void_gurglin_toes;
+	public static Item baked_void_gurglin_toes;
+	
+	public static Item pendell_wood_log;
+	public static Item pendell_wood_planks;
+	public static Item pendell_wood_leaves;
+	
 
 }

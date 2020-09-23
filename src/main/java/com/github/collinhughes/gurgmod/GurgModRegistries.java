@@ -164,7 +164,12 @@ public class GurgModRegistries {
 				             
 				GurgModItems.gurglin_hide = new Item(new Item.Properties().group(GURG_ITEMS)).setRegistryName(location("gurglin_hide")),
 				GurgModItems.gurglin_tendie = new Item(new Item.Properties().group(GURG_ITEMS).food(GurgModFoods.GURGLIN_TENDIE)).setRegistryName(location("gurglin_tendie")),
-				GurgModItems.raw_gurglin_meat = new Item(new Item.Properties().group(GURG_ITEMS).food(GurgModFoods.RAW_GURGLIN_MEAT)).setRegistryName(location("raw_gurglin_meat"))
+				GurgModItems.raw_gurglin_meat = new Item(new Item.Properties().group(GURG_ITEMS).food(GurgModFoods.RAW_GURGLIN_MEAT)).setRegistryName(location("raw_gurglin_meat")),
+				
+				GurgModItems.void_gurglin_toes = new Item(new Item.Properties().group(GURG_ITEMS).food(GurgModFoods.VOID_GURGLIN_TOES)).setRegistryName(location("raw_void_gurglin_toes")),
+				GurgModItems.baked_void_gurglin_toes = new Item(new Item.Properties().group(GURG_ITEMS).food(GurgModFoods.BAKED_VOID_GURGLIN_TOES)).setRegistryName(location("cooked_void_gurglin_toes")),
+				
+				GurgModItems.pendell_wood_log = new BlockItem(GurgModBlocks.pendell_wood_log, new Item.Properties().group(GURG_ITEMS)).setRegistryName(GurgModBlocks.pendell_wood_log.getRegistryName())
 				);
 		
 		GurgModEntities.registerEntitySpawnEggs(event);
@@ -234,19 +239,26 @@ public class GurgModRegistries {
 						.create(Material.ROCK)
 						.hardnessAndResistance(3.0f, 3.0f)
 						.sound(SoundType.STONE))
-						.setRegistryName(location("franklin_essence_ore"))
+						.setRegistryName(location("franklin_essence_ore")),
 						
-//				GurgModBlocks.gurg_essence_block = new Block(Block.Properties
-//						.create(Material.IRON)
-//						.hardnessAndResistance(3.0f, 3.0f)
-//						.sound(SoundType.STONE))
-//						.setRegistryName(location("gurg_essence_block")),
-//						
-//				GurgModBlocks.gurg_essence_ore = new Block(Block.Properties
-//						.create(Material.ROCK)
-//						.hardnessAndResistance(3.0f, 3.0f)
-//						.sound(SoundType.STONE))
-//						.setRegistryName(location("gurg_essence_ore"))
+				GurgModBlocks.pendell_wood_log = new Block(Block.Properties
+						.create(Material.WOOD)
+						.hardnessAndResistance(2.0f)
+						.sound(SoundType.WOOD))
+						.setRegistryName(location("pendell_wood_logs")),
+						
+				GurgModBlocks.pendell_wood_planks = new Block(Block.Properties
+						.create(Material.WOOD)
+						.hardnessAndResistance(2.0f)
+						.sound(SoundType.WOOD))
+						.setRegistryName(location("pendell_wood_planks")),
+						
+				GurgModBlocks.pendell_wood_leaves = new Block(Block.Properties
+						.create(Material.LEAVES)
+						.hardnessAndResistance(0.2f)
+						.sound(SoundType.PLANT))
+						.setRegistryName(location("pendell_wood_leaves"))
+									
 				);
 		
 		LOGGER.info("Blocks registered");

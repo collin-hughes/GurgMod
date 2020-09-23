@@ -3,10 +3,12 @@ package com.github.collinhughes.gurgmod.client.renders;
 import com.github.collinhughes.gurgmod.GurgModRegistries;
 import com.github.collinhughes.gurgmod.client.models.EntityVoidGurglinModel;
 import com.github.collinhughes.gurgmod.entities.EntityVoidGurglin;
+import com.mojang.blaze3d.platform.GlStateManager;
 
 import net.minecraft.client.renderer.entity.BipedRenderer;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererManager;
+import net.minecraft.entity.monster.GiantEntity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -26,6 +28,10 @@ public class EntityVoidGurglinRender extends BipedRenderer<EntityVoidGurglin, En
 		return GurgModRegistries.location("textures/entity/entity_void_gurglin.png");
 	}
 
+	protected void preRenderCallback(EntityVoidGurglin entitylivingbaseIn, float partialTickTime) {
+		GlStateManager.scalef(3.0f, 3.0f, 3.0f);
+	}
+	
 	public static class RenderFactory implements IRenderFactory<EntityVoidGurglin>
 	{
 
